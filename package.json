@@ -2,7 +2,7 @@
   "name": "jest-practice",
   "version": "1.0.0",
   "description": "[Hands-On] Jest 연습하기",
-  "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "test": "jest"
   },

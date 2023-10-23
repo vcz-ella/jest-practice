@@ -1,4 +1,4 @@
-const { findUser, findUserReturnBoolean, calculateDivide } = require('../index');
+import { findUser, findUserReturnBoolean, calculateDivide } from '../index';
 
 const users = ['Neo', 'Dorothy', 'Potato', 'Frontend', 'Backend'];
 
