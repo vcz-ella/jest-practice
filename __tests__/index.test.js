@@ -1,4 +1,4 @@
-const { findUser } = require('../index');
+const { findUser, findUserReturnBoolean, calculateDivide } = require('../index');
 
 const users = ['Neo', 'Dorothy', 'Potato', 'Frontend', 'Backend'];
 
@@ -9,7 +9,10 @@ describe('3 더하기 5의 결과는 무엇일까?', () => {
 	})
 });
 
-// users 배열에서 'Neo'라는 닉네임을 가진 유저의 인덱스 위치 반환 테스트 작성
-test('Neo라는 사람은 존재합니다.', () => {
-    expect(findUser('Neo', users)).toEqual(0);
-})
+// 1. users 배열에서 'Neo'라는 닉네임을 가진 유저의 인덱스 위치 반환 테스트 작성
+
+
+// 2. users 배열에서 'Foo'라는 사람이 존재하지 않는지 확인
+
+
+// 3. 0으로 나누었을 때 오류가 발생하는지 확인
